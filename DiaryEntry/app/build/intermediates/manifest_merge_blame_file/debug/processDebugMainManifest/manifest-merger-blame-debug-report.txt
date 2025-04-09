@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.diaryentry"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.16.0] /Users/vanessadp/.gradle/caches/transforms-3/911b567791dbd2c02d85680deffa48c7/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.diaryentry.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.16.0] /Users/vanessadp/.gradle/caches/transforms-3/911b567791dbd2c02d85680deffa48c7/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.16.0] /Users/vanessadp/.gradle/caches/transforms-3/911b567791dbd2c02d85680deffa48c7/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.diaryentry.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.16.0] /Users/vanessadp/.gradle/caches/transforms-3/911b567791dbd2c02d85680deffa48c7/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.16.0] /Users/vanessadp/.gradle/caches/transforms-3/911b567791dbd2c02d85680deffa48c7/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:5:5-39:19
+18        android:name="com.example.diaryentry.App"
+18-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:6:9-28
+19        android:allowBackup="true"
+19-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:7:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.16.0] /Users/vanessadp/.gradle/caches/transforms-3/911b567791dbd2c02d85680deffa48c7/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+21        android:dataExtractionRules="@xml/data_extraction_rules"
+21-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:8:9-65
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:9:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:10:9-43
+26        android:label="@string/app_name"
+26-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:11:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:12:9-54
+28        android:supportsRtl="true"
+28-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:13:9-35
+29        android:testOnly="true" >
+30        <activity
+30-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:15:9-17:40
+31            android:name="com.example.diaryentry.AddEditDiaryActivity"
+31-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:16:13-49
+32            android:exported="false" />
+32-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:17:13-37
+33        <activity
+33-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.diaryentry.ArchiveActivity"
+34-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:19:13-44
+35            android:exported="false" />
+35-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:20:13-37
+36        <activity
+36-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.diaryentry.MainActivity"
+37-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:22:13-41
+38            android:exported="false" />
+38-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:23:13-37
+39        <activity
+39-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.diaryentry.ProfileActivity"
+40-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:25:13-44
+41            android:exported="false" />
+41-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:26:13-37
+42        <activity
+42-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:27:9-29:40
+43            android:name="com.example.diaryentry.RegisterActivity"
+43-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:28:13-45
+44            android:exported="false" />
+44-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:29:13-37
+45        <activity
+45-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:30:9-38:20
+46            android:name="com.example.diaryentry.LoginActivity"
+46-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:31:13-42
+47            android:exported="true" >
+47-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:32:13-36
+48            <intent-filter>
+48-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:33:13-37:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:34:17-69
+49-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:34:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:36:17-77
+51-->/Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/src/main/AndroidManifest.xml:36:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.3.0] /Users/vanessadp/.gradle/caches/transforms-3/7ccef98910c4f0377084e922b3e608b0/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.3.0] /Users/vanessadp/.gradle/caches/transforms-3/7ccef98910c4f0377084e922b3e608b0/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.diaryentry.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.3.0] /Users/vanessadp/.gradle/caches/transforms-3/7ccef98910c4f0377084e922b3e608b0/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.3.0] /Users/vanessadp/.gradle/caches/transforms-3/7ccef98910c4f0377084e922b3e608b0/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.3.0] /Users/vanessadp/.gradle/caches/transforms-3/7ccef98910c4f0377084e922b3e608b0/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.3.0] /Users/vanessadp/.gradle/caches/transforms-3/7ccef98910c4f0377084e922b3e608b0/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.3.0] /Users/vanessadp/.gradle/caches/transforms-3/7ccef98910c4f0377084e922b3e608b0/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/vanessadp/.gradle/caches/transforms-3/e2d8b6b14a67d2ac1d43b87bcf6c8a92/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/vanessadp/.gradle/caches/transforms-3/e2d8b6b14a67d2ac1d43b87bcf6c8a92/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/vanessadp/.gradle/caches/transforms-3/e2d8b6b14a67d2ac1d43b87bcf6c8a92/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+67                android:value="androidx.startup" />
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+68        </provider>
+69
+70        <receiver
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+71            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+72            android:directBootAware="false"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+73            android:enabled="true"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+74            android:exported="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+75            android:permission="android.permission.DUMP" >
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+76            <intent-filter>
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+77                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+78            </intent-filter>
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+80                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+83                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+86                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vanessadp/.gradle/caches/transforms-3/f1e25946543995ff6ed23c40b23be1e1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+87            </intent-filter>
+88        </receiver>
+89    </application>
+90
+91</manifest>

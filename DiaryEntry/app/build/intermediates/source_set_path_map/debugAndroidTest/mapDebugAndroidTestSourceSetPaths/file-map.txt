@@ -1,0 +1,6 @@
+com.example.diaryentry.test.app-core-1.6.1-0 /Users/vanessadp/.gradle/caches/transforms-3/409fba2765ba90d6a9378b4868e4f64b/transformed/core-1.6.1/res
+com.example.diaryentry.test.app-tracing-1.2.0-1 /Users/vanessadp/.gradle/caches/transforms-3/82fa2804c8684f8a9fbdd158fff370a1/transformed/tracing-1.2.0/res
+com.example.diaryentry.test.app-androidTest-2 /Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/build/generated/res/resValues/androidTest/debug
+com.example.diaryentry.test.app-mergeDebugAndroidTestResources-3 /Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.diaryentry.test.app-mergeDebugAndroidTestResources-4 /Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.diaryentry.test.app-debugAndroidTest-5 /Users/vanessadp/AndroidStudioProjects/DiaryEntry/DiaryEntry/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
